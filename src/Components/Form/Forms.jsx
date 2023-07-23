@@ -81,7 +81,7 @@ const Forms = () => {
         </div>
         <div className="w-full flex flex-wrap justify-center sm:justify-around lg:justify-between mt-[47px]">
           {filteredData.map((item) => (
-            <Country_card key={item.name} nombre={item.name} bandera={item.flag} poblacion={item.population.toLocaleString()} capital={item.capital} region={item.region} />
+            <Country_card key={item.area} nombre={item.name} bandera={item.flag} poblacion={item.population.toLocaleString()} capital={item.capital} region={item.region} />
           ))}
         </div>
       </div>
