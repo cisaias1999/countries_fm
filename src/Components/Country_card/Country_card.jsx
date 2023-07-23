@@ -9,7 +9,7 @@ export default function Country_card({ bandera, nombre, poblacion ,capital, regi
                 
             </div>
             <div className='relative h-full flex flex-col justify-center px-[30px]'>
-                <h2 className='text-lg font-bold mb-[15px]'>
+                <h2 className='text-lg font-bold mb-[15px] text-[#111517]'>
                     {nombre}
                 </h2>
                 <Data_country titulo={'Poblacion'} dato={poblacion} />
