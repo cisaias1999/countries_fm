@@ -79,9 +79,8 @@ const Forms = () => {
           <Input_form handleInputChange={handleInputChange} value={inputValue} />
           <Select label="Filter by Region" options={continents} handleSelectChange={handleSelectedChange} />
         </div>
-        <div className="w-full flex flex-wrap justify-center sm:justify-around lg:justify-between mt-[48px]">
+        <div className="w-full flex flex-wrap justify-center sm:justify-around lg:justify-between mt-[47px]">
           {filteredData.map((item) => (
-            
             <Country_card key={item.name} nombre={item.name} bandera={item.flag} poblacion={item.population.toLocaleString()} capital={item.capital} region={item.region} />
           ))}
         </div>
