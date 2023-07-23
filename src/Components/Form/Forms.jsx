@@ -8,22 +8,27 @@ const Forms = () => {
     {
       value: "Africa",
       label: "Africa",
+      id: "1"
     },
     {
       value: "Americas",
       label: "Americas",
+      id: "2"
     },
     {
       value: "Asia",
       label: "Asia",
+      id: "3"
     },
     {
       value: "Europe",
       label: "Europe",
+      id: "4"
     },
     {
       value: "Oceania",
       label: "Oceania",
+      id: "5"
     },
   ];
 
